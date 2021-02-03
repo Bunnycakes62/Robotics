@@ -1,0 +1,8 @@
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K<<[m[K’ token
+   28 |         ROS_INFO_STREAM("Sending random velocity command:") [01;31m[K<<[m[K " linear=" << msg.linear.x << " angular=" << msg.angular.z);
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,49 @@
+[35m[1mScanning dependencies of target publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:61:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>([01;31m[K`[m[K`turtle1/cmd_vel", 1000);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:62:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>(`[01;31m[K`[m[Kturtle1/cmd_vel", 1000);
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:78:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>(``turtle1/cmd_vel[01;35m[K"[m[K, 1000);
+      |                                                                              [01;35m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:78:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>(``turtle1/cmd_vel[01;31m[K", 1000);[m[K
+      |                                                                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:59:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   28 |         ROS_INFO_STREAM(``Sending random velocity command:[01;35m[K"[m[K)
+      |                                                           [01;35m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:29:22:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   29 |         << `` linear=[01;35m[K"[m[K << msg.linear.x
+      |                      [01;35m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:30:23:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   30 |         << `` angular=[01;35m[K"[m[K << msg.angular.z);
+      |                       [01;35m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:35:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "ROS_INFO_STREAM"
+   35 | }
+      | 
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1[m[K’ was not declared in this scope
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>(``[01;31m[Kturtle1[m[K/cmd_vel", 1000);
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:11:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+   11 |     ros::Publisher pub = nh.advertise<geometry_msgs::Twist>(``turtle1/[01;31m[Kcmd_vel[m[K", 1000);
+      |                                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope
+   28 |         [01;31m[KROS_INFO_STREAM[m[K(``Sending random velocity command:")
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:18:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   18 |     while(ros::ok()) [01;36m[K{[m[K
+      |                      [01;36m[K^[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:28:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   28 |         [01;31m[KROS_INFO_STREAM[m[K(``Sending random velocity command:")
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/olivia/Noetic/workspace/src/publisher/publisher.cpp:5:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | int main(int argc, char **argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/publisher.dir/build.make:63: CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

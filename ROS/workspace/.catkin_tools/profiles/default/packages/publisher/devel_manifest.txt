@@ -1,0 +1,6 @@
+publisher
+/home/olivia/Noetic/workspace/devel/.private/publisher/cmake.lock /home/olivia/Noetic/workspace/devel/./cmake.lock
+/home/olivia/Noetic/workspace/devel/.private/publisher/lib/publisher/publisher /home/olivia/Noetic/workspace/devel/lib/publisher/publisher
+/home/olivia/Noetic/workspace/devel/.private/publisher/lib/pkgconfig/publisher.pc /home/olivia/Noetic/workspace/devel/lib/pkgconfig/publisher.pc
+/home/olivia/Noetic/workspace/devel/.private/publisher/share/publisher/cmake/publisherConfig.cmake /home/olivia/Noetic/workspace/devel/share/publisher/cmake/publisherConfig.cmake
+/home/olivia/Noetic/workspace/devel/.private/publisher/share/publisher/cmake/publisherConfig-version.cmake /home/olivia/Noetic/workspace/devel/share/publisher/cmake/publisherConfig-version.cmake

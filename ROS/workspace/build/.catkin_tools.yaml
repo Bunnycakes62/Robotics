@@ -1,0 +1,6 @@
+devel_space: /home/olivia/Noetic/workspace/devel
+install: false
+install_space: /home/olivia/Noetic/workspace/install
+profile: default
+source_space: /home/olivia/Noetic/workspace/src
+workspace: /home/olivia/Noetic/workspace

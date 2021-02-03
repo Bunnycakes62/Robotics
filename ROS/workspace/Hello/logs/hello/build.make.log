@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target hello[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/hello.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/olivia/Noetic/workspace/devel/.private/hello/lib/hello/hello[0m
+[100%] Built target hello
